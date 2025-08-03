@@ -225,8 +225,9 @@ main>section {
         flex-direction: column;
     }
 
-    .team-img-container {
-        grid-template-columns: repeat(1, 1fr);
+    .team-img-container,
+    .fact-container {
+        grid-template-columns: 1fr;
     }
 
     .our-features {
@@ -234,6 +235,11 @@ main>section {
         margin-left: 20px;
     }
 
+    .fact-container{
+
+        justify-items: center;
+        gap: 24px;
+    }
 }
 
 /* medium device Responsive */
